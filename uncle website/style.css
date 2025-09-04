@@ -1,0 +1,58 @@
+.logo{
+    width: 9%;
+    height: auto;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    margin-right: 10px;
+}
+header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: end;
+    padding: 10px;
+}
+.navbar ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: right;
+gap: 20px;
+}
+.navbar li{
+    float: left;
+}
+.navber li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    border-bottom: none;
+    box-shadow: none;
+}
+.navbar li a:hover{
+    color: black;
+}
+.glow-link{
+    text-decoration: none;
+    color: yellow;
+    transition: 0.5s;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.glow-link:hover{
+    text-shadow: 0 0 10px;
+    box-shadow: 0 0 10px;
+}
+.box{
+    width: 800px;
+    background-color: white;
+    padding: 20px;
+    padding: 1px ;
+}
+.map{
+    width: fit-content;
+}
+
